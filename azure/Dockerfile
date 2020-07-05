@@ -4,10 +4,10 @@ LABEL description="Deployment tool for Cloud environments."
 
 # ENV variables
 ENV USER=deployer
-ENV ANSIBLE_VER=2.9.6
-ENV AZCLI_VER=2.2.0
+ENV ANSIBLE_VER=2.9.10
+ENV AZCLI_VER=2.8.0
 ENV HELM_VER=2.14.3
-ENV KUBECTL_VER=1.16.7
+ENV KUBECTL_VER=1.18.5
 
 # Install Packages
 RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc && \
